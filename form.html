@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/62d86cd602.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form-container">
+        <h2>Form validation</h2>
+        <p>validates if there are wrong inputs</p>
+        <form action=""
+            id="form" 
+            method="GET">
+            <div class="form-group">
+                <label for="name"><b>Username</b></label>
+                <input type="text" name="username" placeholder="Jahsminemma" id="username">
+                <di class="err">
+                <i class="fas fa-exclamation-circle"></i> 
+                <i class="fas fa-check-circle"></i>          
+                <small>Error message</small>
+            </di>
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Email</b></label>
+                <input type="text" name="email" placeholder="test@exampls.com" id="email">
+                <di class="err">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>                
+                <small>Error message</small>
+            </di>
+            </div>
+            <div class="form-group">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" name="psw" placeholder="" id="psw">
+                <di class="err">
+                <i class="fas fa-exclamation-circle"></i> 
+                <i class="fas fa-check-circle"></i>            
+                <small>Error message</small>
+            </di>
+            </div>
+            <div class="form-group">
+                <label for="psw2"><b>Password</b></label>
+                <input type="password" name="psw2" placeholder="" id="psw2">
+                <di class="err">
+                <i class="fas fa-exclamation-circle"></i> 
+                <i class="fas fa-check-circle"></i>        
+                <small>Error message</small>
+            </di>
+            </div>
+            <button type="submit">Login</button>
+         </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
